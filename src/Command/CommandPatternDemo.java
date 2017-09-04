@@ -9,6 +9,7 @@ public class CommandPatternDemo {
 		BuyStock buyStock = new BuyStock(abcStock);
 		SellStock sellStock = new SellStock(abcStock);
 		
+		
 		Broker broker = new Broker();
 		broker.takeOrder(buyStock);
 		broker.takeOrder(sellStock);
